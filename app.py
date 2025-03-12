@@ -5,6 +5,7 @@ from groq import Groq
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="PragyanAI Groq Streamlit APP")
 
+st.title("Sakshi Math - Groq ChatBot")
 st.divider()  # 👈 Draws a horizontal rule
 
 def icon(emoji: str):
